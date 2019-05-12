@@ -1,13 +1,13 @@
 Hola!
 
-El presente modelo, clasifica y extrae entidades (NER) de consultas de tipo rutas, cómo llegar a..., deseo ir desde....., que bus puedo coger para ir a... 
-que hacen los ciudadanos de Valencia para transporte en superficie.
+El presente modelo, clasifica y extrae entidades (NER) de consultas de tipo rutas, cómo llegar a..., deseo ir desde....., 
+que bus puedo coger para ir a... que hacen los ciudadanos de Valencia para transporte en superficie.
 
 Para cargar modelo simplemente usar en python, con R se puede cargar trozo de código en snippet o algo así ;-), 
 si no lo tenéis hay que instalar previamente la libreria SPACY 
 
-IMPORTANTE:el modelo también contiene los vectores de cada palabra (WORD2VEC), con lo cual podemos calcular la similaridad de frases para determinar
-que quiere decir la persona
+IMPORTANTE:el modelo también contiene los vectores de cada palabra (WORD2VEC), con lo cual podemos calcular la 
+similaridad de frases para determinar que quiere decir la persona
 
 
 pip install -U spacy

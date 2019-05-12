@@ -1,0 +1,11 @@
+Hola!
+Para cargar modelo simplemente usar en python, con R se puede cargar trozo de código en snippet o algo así :), de las 6 clasificaciones CALCULO RUTAS, ESTIMACIONES, INCIDENCIAS, OBJETOS, VENTAONLINE, INFORMACION solo ha aprendido de RUTAS para este modelo. Lo he segregado porque así es más preciso 
+
+import spacy
+nlp=spacy.load("<RUTA.....>emtrutas_1")
+
+# Ejemplo
+
+text="Buenos días. Deseo ir desde la Patacona al Hospital Arnau de Vilanova\n"
+doc=nlp(text)
+print("Entities", [(ent.text, ent.label_) for ent in doc.ents])
